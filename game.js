@@ -228,7 +228,7 @@ function play(player, psum, correction, num) {
         if (p2sum == 94) {
             showOverlay(
                 "Unfortunately, you allowed your cattle to overgraze. Overgrazing causes the formation of rills, which are shallow drainage marks (often shorter than 30 cm) due to the loss of grass and small shrubs covering the land. These rills lead to soil erosion when exposed to fast-flowing water. You will move back to square 65 to repent for your mistake!",
-                "cattle_overgrazing.jpg");
+                "cattle_overgrazing.jpeg");
             p2sum = 65;
         }
         if (p2sum == 92) {
